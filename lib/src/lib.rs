@@ -1,6 +1,6 @@
 pub(crate) mod api;
-pub mod authorize;
-pub mod authenticate;
+pub mod auth;
+pub mod entity;
 
 #[cfg(test)]
 mod tests {
