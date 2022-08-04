@@ -1,5 +1,6 @@
 pub(crate) mod api;
 pub mod authorize;
+pub mod authenticate;
 
 #[cfg(test)]
 mod tests {
