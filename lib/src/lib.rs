@@ -1,3 +1,7 @@
+pub(crate) mod api;
+pub mod auth;
+pub mod entity;
+
 #[cfg(test)]
 mod tests {
     #[test]
